@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<ESBEndpoint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Id>7be74da2-ad55-49f9-9212-7cd74c47bc08</Id>
+  <Version>270f1d00-6d69-4028-a11b-7c39a1a61bb0</Version>
+  <BusinessFlows>
+    <string>BusinessFlow1</string>
+  </BusinessFlows>
+  <Description />
+  <Name>Adapter1</Name>
+  <IsSystemObject>false</IsSystemObject>
+  <IsPrivate>false</IsPrivate>
+  <Bindings />
+  <FarmSingleInstance>false</FarmSingleInstance>
+  <Enabled>true</Enabled>
+  <Zone>Enterprise</Zone>
+  <IncludeMetadata>false</IncludeMetadata>
+  <AdapterName>Salesforce</AdapterName>
+  <AdapterAssembly>Neuron.Esb.Adapters.SalesForceAdapter.dll</AdapterAssembly>
+  <AdapterMessageDirection>Duplex</AdapterMessageDirection>
+  <AdapterClass>Neuron.Esb.Adapters.SalesForceAdapter</AdapterClass>
+  <AdapterMode>Subscribe</AdapterMode>
+  <ProcessMode>false</ProcessMode>
+  <ClientProcessMode>false</ClientProcessMode>
+  <ProcessList />
+  <ServiceRateEnable>false</ServiceRateEnable>
+  <Properties>
+    <NameValuePair>
+      <Name>PublishTopic</Name>
+      <Value />
+    </NameValuePair>
+    <NameValuePair>
+      <Name>OAuth</Name>
+      <Value>False</Value>
+    </NameValuePair>
+    <NameValuePair>
+      <Name>AuthenticationFlow</Name>
+      <Value>SAML Assertion Flow</Value>
+    </NameValuePair>
+    <NameValuePair>
+      <Name>SoapVersion</Name>
+      <Value>48.0</Value>
+    </NameValuePair>
+    <NameValuePair>
+      <Name>SfdcLoginUrl</Name>
+      <Value>https://login.salesforce.com/services/Soap/u/48.0</Value>
+    </NameValuePair>
+    <NameValuePair>
+      <Name>ConcurrentConnections</Name>
+      <Value>2</Value>
+    </NameValuePair>
+    <NameValuePair>
+      <Name>Username</Name>
+      <Value />
+    </NameValuePair>
+    <NameValuePair>
+      <Name>Password</Name>
+      <Value>H3x4W6zkAAengGaXDosFdA==</Value>
+    </NameValuePair>
+    <NameValuePair>
+      <Name>SecurityToken</Name>
+      <Value />
+    </NameValuePair>
+    <NameValuePair>
+      <Name>ConsumerKey</Name>
+      <Value>H3x4W6zkAAengGaXDosFdA==</Value>
+    </NameValuePair>
+    <NameValuePair>
+      <Name>ConsumerSecret</Name>
+      <Value />
+    </NameValuePair>
+    <NameValuePair>
+      <Name>ProxyServer</Name>
+      <Value>SystemDefault</Value>
+    </NameValuePair>
+    <NameValuePair>
+      <Name>ProxyAddress</Name>
+      <Value>http://localhost</Value>
+    </NameValuePair>
+    <NameValuePair>
+      <Name>ProxyPort</Name>
+      <Value>8080</Value>
+    </NameValuePair>
+    <NameValuePair>
+      <Name>UseCustomProxyCredentials</Name>
+      <Value>False</Value>
+    </NameValuePair>
+    <NameValuePair>
+      <Name>StoredCredential</Name>
+      <Value />
+    </NameValuePair>
+    <NameValuePair>
+      <Name>PublishMode</Name>
+      <Value>Outbound Messaging</Value>
+    </NameValuePair>
+    <NameValuePair>
+      <Name>RouteObjects</Name>
+      <Value />
+    </NameValuePair>
+    <NameValuePair>
+      <Name>NotificationUrl</Name>
+      <Value />
+    </NameValuePair>
+    <NameValuePair>
+      <Name>StreamingApiVersion</Name>
+      <Value>48.0</Value>
+    </NameValuePair>
+    <NameValuePair>
+      <Name>SubscriptionChannels</Name>
+      <Value>/data/ChangeEvents</Value>
+    </NameValuePair>
+    <NameValuePair>
+      <Name>ErrorMode</Name>
+      <Value>Error</Value>
+    </NameValuePair>
+    <NameValuePair>
+      <Name>APIToUse</Name>
+      <Value>Rest</Value>
+    </NameValuePair>
+    <NameValuePair>
+      <Name>DataFormat</Name>
+      <Value>Xml</Value>
+    </NameValuePair>
+    <NameValuePair>
+      <Name>SendTimeout</Name>
+      <Value>60</Value>
+    </NameValuePair>
+  </Properties>
+  <AdapterBindings />
+  <PartyId>Publisher1</PartyId>
+  <AdapterPolicy>Default</AdapterPolicy>
+  <PoolSize>1</PoolSize>
+  <ProessingThreads>1</ProessingThreads>
+</ESBEndpoint>

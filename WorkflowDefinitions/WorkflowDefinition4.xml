@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<EsbWorkflowDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Id>c7b6390c-6276-409e-adc3-f352ba7693a0</Id>
+  <Version>608a2ef5-1f20-4974-a2b1-e7deaace8d7e</Version>
+  <BusinessFlows />
+  <Description />
+  <Name>WorkflowDefinition4</Name>
+  <IsSystemObject>false</IsSystemObject>
+  <IsPrivate>false</IsPrivate>
+  <ReferencedAssemblies />
+  <WorkflowType>BasicWorkflow</WorkflowType>
+</EsbWorkflowDefinition>

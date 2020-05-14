@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<EsbAvailabilityGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Id>5092729d-b088-4e76-bf6a-aaa9c4fc8e49</Id>
+  <Version>7ad73f8d-b524-4796-89e2-72d943889161</Version>
+  <BusinessFlows />
+  <Description>Peregrine Scheduler</Description>
+  <Name>Peregrine Scheduler</Name>
+  <IsSystemObject>true</IsSystemObject>
+  <IsPrivate>false</IsPrivate>
+  <IsScheduler>true</IsScheduler>
+  <Category />
+  <RunAs />
+  <IsEnabled>true</IsEnabled>
+  <RunInDocker>false</RunInDocker>
+  <DeploymentGroups>
+    <EsbAvailabilityGroupDeploymentGroupMapping>
+      <DeploymentGroup>mahesh-mac</DeploymentGroup>
+      <Servers>
+        <DeploymentServer>
+          <ServerName>mahesh-mac</ServerName>
+          <Role>Primary</Role>
+          <RetryCount>2</RetryCount>
+          <RetryInterval>5</RetryInterval>
+          <IsEnabled>true</IsEnabled>
+        </DeploymentServer>
+      </Servers>
+    </EsbAvailabilityGroupDeploymentGroupMapping>
+  </DeploymentGroups>
+</EsbAvailabilityGroup>

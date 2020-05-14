@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<ESBEndpoint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Id>4bf31d73-d053-4041-96d9-bea9e792e0f9</Id>
+  <Version>42f2618b-4577-4468-8ca1-10d78ed5ae1e</Version>
+  <BusinessFlows>
+    <string>BusinessFlow1</string>
+  </BusinessFlows>
+  <Description />
+  <Name>Adapter4</Name>
+  <IsSystemObject>false</IsSystemObject>
+  <IsPrivate>false</IsPrivate>
+  <Bindings />
+  <FarmSingleInstance>false</FarmSingleInstance>
+  <Enabled>true</Enabled>
+  <Zone>Enterprise</Zone>
+  <IncludeMetadata>false</IncludeMetadata>
+  <AdapterName>AmazonSimpleQueueService</AdapterName>
+  <AdapterMessageDirection>Duplex</AdapterMessageDirection>
+  <AdapterMode>Publish</AdapterMode>
+  <ProcessMode>false</ProcessMode>
+  <ClientProcessMode>false</ClientProcessMode>
+  <ProcessList />
+  <ServiceRateEnable>false</ServiceRateEnable>
+  <Properties>
+    <NameValuePair>
+      <Name>AccessKey</Name>
+      <Value>H3x4W6zkAAengGaXDosFdA==</Value>
+    </NameValuePair>
+    <NameValuePair>
+      <Name>ErrorHandling</Name>
+      <Value>StopPollingOnError</Value>
+    </NameValuePair>
+    <NameValuePair>
+      <Name>ErrorMode</Name>
+      <Value>Error</Value>
+    </NameValuePair>
+    <NameValuePair>
+      <Name>QueueAddress</Name>
+      <Value />
+    </NameValuePair>
+    <NameValuePair>
+      <Name>PollingInterval</Name>
+      <Value>30</Value>
+    </NameValuePair>
+    <NameValuePair>
+      <Name>SecretKey</Name>
+      <Value>H3x4W6zkAAengGaXDosFdA==</Value>
+    </NameValuePair>
+    <NameValuePair>
+      <Name>ServiceRegion</Name>
+      <Value />
+    </NameValuePair>
+    <NameValuePair>
+      <Name>Topic</Name>
+      <Value />
+    </NameValuePair>
+  </Properties>
+  <AdapterBindings />
+  <PartyId>Publisher1</PartyId>
+  <AdapterPolicy>Default</AdapterPolicy>
+  <PoolSize>1</PoolSize>
+  <ProessingThreads>1</ProessingThreads>
+</ESBEndpoint>

@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<ESBConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Version>8</Version>
+  <EnvironmentName>04232020_6</EnvironmentName>
+  <NeuronBuildVersion>0.1.0.002</NeuronBuildVersion>
+  <ApplicationName>04232020_6</ApplicationName>
+  <ApplicationId>9513fbbe-56c0-46d2-a7e5-9bed0543b043</ApplicationId>
+  <ZoneName>Enterprise</ZoneName>
+  <ChangeList>
+    <Additions>
+      <string>Add,Enterprise,subscriber,Subscriber1</string>
+      <string>Add,*,workflow definition,Workflow1</string>
+      <string>Add,*,workflow endpoint,WorkflowHost1</string>
+    </Additions>
+    <Revisions>
+      <string>Edit,Enterprise,adapter endpoint,Adapter1</string>
+      <string>Edit,Enterprise,adapter endpoint,Adapter2</string>
+      <string>Edit,Enterprise,adapter endpoint,Adapter3</string>
+      <string>Edit,Enterprise,topic,Topic1</string>
+      <string>Edit,Enterprise,publisher,Publisher1</string>
+      <string>Edit,Enterprise,adapter endpoint,Adapter4</string>
+    </Revisions>
+    <Deletions />
+    <LastModifiedBy />
+    <LastModifiedDate>2020-05-14T02:11:58.887604Z</LastModifiedDate>
+    <Comments />
+  </ChangeList>
+  <NeuronEnvironmentVariables />
+  <ProcessFolders />
+  <InstanceName />
+  <Zones />
+  <Topics />
+  <Subscribers />
+  <Services />
+  <WorkflowDefinitions />
+  <WorkflowHosts />
+  <AvailabilityGroups />
+  <OAuthProviders />
+  <ESBMessagePipelines />
+  <Schemas />
+  <JsonSchemas />
+  <XmlDocs>
+    <item>
+      <key>
+        <string>XML1</string>
+      </key>
+      <value>
+        <ESBXmlDoc>
+          <Id>5d56a796-5e21-455e-bf79-fc61d1d6bd41</Id>
+          <Version>325a40c5-f788-492a-8fad-c4c0d00e5cd2</Version>
+          <BusinessFlows />
+          <Description />
+          <Name>XML1</Name>
+          <IsSystemObject>false</IsSystemObject>
+          <IsPrivate>false</IsPrivate>
+          <Storing>false</Storing>
+          <Xml />
+        </ESBXmlDoc>
+      </value>
+    </item>
+    <item>
+      <key>
+        <string>XML2</string>
+      </key>
+      <value>
+        <ESBXmlDoc>
+          <Id>f8b56930-8006-4614-a5ae-b92f4a3b39a5</Id>
+          <Version>d93c1119-c861-4bc3-9850-614dd051e4a0</Version>
+          <BusinessFlows />
+          <Description />
+          <Name>XML2</Name>
+          <IsSystemObject>false</IsSystemObject>
+          <IsPrivate>false</IsPrivate>
+          <Storing>false</Storing>
+          <Xml />
+        </ESBXmlDoc>
+      </value>
+    </item>
+  </XmlDocs>
+  <TextDocs />
+  <JsonDocs />
+  <SwaggerDocs />
+  <WsdlDocuments />
+  <Xslts />
+  <BusinessEvents />
+  <Deployments />
+  <MessagePatterns />
+  <Bridges />
+  <Databases />
+  <Keys />
+  <Workflows />
+  <Applications />
+  <BusinessFlows />
+  <Bindings />
+  <Behaviors />
+  <Adapters />
+  <Credentials />
+  <ServicePolicies />
+  <AdapterPolicies />
+  <Endpoints />
+  <AccessControlLists />
+  <Administrators />
+  <IsEncrypted>false</IsEncrypted>
+</ESBConfiguration>

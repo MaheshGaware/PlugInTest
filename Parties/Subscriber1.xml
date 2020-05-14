@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<ESBSubscriber xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Id>6d7028f1-d26f-475d-a9c0-a9d9675a8a06</Id>
+  <Version>36516a3c-5657-4326-a103-4e6ae665fde5</Version>
+  <BusinessFlows>
+    <string>BusinessFlow1</string>
+  </BusinessFlows>
+  <Description />
+  <Name>Subscriber1</Name>
+  <IsSystemObject>false</IsSystemObject>
+  <IsPrivate>false</IsPrivate>
+  <Bindings />
+  <SubscriberId>Subscriber1</SubscriberId>
+  <Zone>Enterprise</Zone>
+  <Enabled>true</Enabled>
+  <Subscriptions>
+    <Subscription>
+      <TopicName>Topic1</TopicName>
+      <CanRead>true</CanRead>
+      <CanWrite>false</CanWrite>
+      <SubscriptionType>Topic</SubscriptionType>
+    </Subscription>
+  </Subscriptions>
+  <NormalizedSubscriptions>
+    <Subscription>
+      <TopicName>Topic1</TopicName>
+      <CanRead>false</CanRead>
+      <CanWrite>false</CanWrite>
+      <SubscriptionType>Topic</SubscriptionType>
+    </Subscription>
+  </NormalizedSubscriptions>
+  <Anonymous>true</Anonymous>
+  <AllowMultipleInstances>true</AllowMultipleInstances>
+  <LogSession>true</LogSession>
+  <LogActivity>false</LogActivity>
+  <UseUniqueWmiCounterName>true</UseUniqueWmiCounterName>
+</ESBSubscriber>

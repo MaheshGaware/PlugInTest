@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<EsbWorkflowDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Id>0a85656c-68bb-4d62-a1db-0efeeb06b535</Id>
+  <Version>66d65442-2dde-4c6e-b2db-658ac205bab8</Version>
+  <BusinessFlows />
+  <Description />
+  <Name>Workflow1</Name>
+  <IsSystemObject>false</IsSystemObject>
+  <IsPrivate>false</IsPrivate>
+  <Category>General</Category>
+  <Path />
+  <ReferencedAssemblies />
+  <WorkflowType>BasicWorkflow</WorkflowType>
+  <WorkflowXaml>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;Activity x:Class="Workflow1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:ne="clr-namespace:Neuron.Esb;assembly=Neuron.Esb" xmlns:nea="clr-namespace:Neuron.Esb.Administration;assembly=Neuron.Esb" xmlns:nea1="clr-namespace:Neuron.Esb.Activities;assembly=Neuron.Esb.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:s1="clr-namespace:System;assembly=System" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:snh="clr-namespace:System.Net.Http;assembly=System.Net.Http" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"&gt;
+  &lt;x:Members&gt;
+    &lt;x:Property Name="message" Type="InArgument(ne:ESBMessage)" /&gt;
+    &lt;x:Property Name="configuration" Type="InArgument(nea:ESBConfiguration)" /&gt;
+    &lt;x:Property Name="environmentVariables" Type="InArgument(scg:IReadOnlyDictionary(x:String, x:String))" /&gt;
+  &lt;/x:Members&gt;
+  &lt;sap:VirtualizedContainerService.HintSize&gt;654,636&lt;/sap:VirtualizedContainerService.HintSize&gt;
+  &lt;sap2010:WorkflowViewState.IdRef&gt;Workflow1_1&lt;/sap2010:WorkflowViewState.IdRef&gt;
+  &lt;mva:VisualBasic.Settings&gt;Assembly references and imported namespaces for internal implementation&lt;/mva:VisualBasic.Settings&gt;
+  &lt;nea1:CSharpCodeActivity ReferencedAssemblies="{x:Array Type=x:String}" sap:VirtualizedContainerService.HintSize="614,516" sap2010:WorkflowViewState.IdRef="CSharpCodeActivity_1"&gt;
+    &lt;nea1:CSharpCodeActivity.SourceCode&gt;
+      &lt;InArgument x:TypeArguments="x:String"&gt;
+        &lt;Literal x:TypeArguments="x:String" Value="" /&gt;
+      &lt;/InArgument&gt;
+    &lt;/nea1:CSharpCodeActivity.SourceCode&gt;
+  &lt;/nea1:CSharpCodeActivity&gt;
+&lt;/Activity&gt;</WorkflowXaml>
+</EsbWorkflowDefinition>
